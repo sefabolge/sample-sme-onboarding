@@ -66,7 +66,7 @@ This separation allows:
 
 ---
 
-⭐ Stretch Goal - explanation.
+⭐ Stretch Goal 
 
 1. Local Python (OCR with Tesseract or OpenCV) - (Implemented in utils/validations.py as example)
 
