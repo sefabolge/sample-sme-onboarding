@@ -1,0 +1,19 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual env
+venv/
+
+# Database
+db.sqlite3
+
+# Environment variables
+.env
+
+# Django migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# OS files
+.DS_Store

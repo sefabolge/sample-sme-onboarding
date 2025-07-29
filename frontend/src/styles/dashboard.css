@@ -1,0 +1,58 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.dashboard-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+}
+
+.status-badge {
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.status-badge.PENDING {
+  background-color: #fcd34d;
+  color: #92400e;
+}
+
+.status-badge.APPROVED {
+  background-color: #34d399;
+  color: #065f46;
+}
+
+.status-badge.REJECTED {
+  background-color: #f87171;
+  color: #7f1d1d;
+}
+
+.status-badge.PUSHBACK {
+  background-color: #93c5fd;
+  color: #1e3a8a;
+}
+
+.section {
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.section h4 {
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+  color: #111827;
+}
